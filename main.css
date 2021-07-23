@@ -12,4 +12,33 @@ body {
 .card {
 list-style: none;
 flex: 0 0 33.333333%;
+box-shadow: 5px 10px #888888;
+border: 1px solid lightblue;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sz-and-weight {
+  font-weight: bold;
+}
+
+.pricing {
+  font-weight: bold;
+}
+
+.first-section{
+  background-color: grey;
+  color: yellow;
+}
+
+.card-text {
+  text-justify: auto;
 }
